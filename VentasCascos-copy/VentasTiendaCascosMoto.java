@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VentasConcesionario {
+public class VentasTiendaCascosMoto {
     
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -9,11 +9,11 @@ public class VentasConcesionario {
         double monto;
         char continuar;
         
-        String[] vehiculos = {"Sedán", "Hatchback", "Camioneta", "SUV", "Pickup"};
+        String[] modelosCascos = {"Integral", "Abatible", "Jet", "Modular", "Cross"};
         int[] vendedores = {1, 2, 3, 4, 5};
         
         do {
-            System.out.print("Ingrese la referencia del vehículo vendido: ");
+            System.out.print("Ingrese la referencia del casco vendido: ");
             referencia = sc.nextInt();
             System.out.print("Ingrese el número del vendedor: ");
             vendedor = sc.nextInt();
@@ -27,9 +27,9 @@ public class VentasConcesionario {
         } while (continuar == 's' || continuar == 'S');
         
         // Impresión de resultados
-        for (int i = 0; i < vehiculos.length; i++) {
+        for (int i = 0; i < modelosCascos.length; i++) {
             for (int j = 0; j < vendedores.length; j++) {
-                System.out.println("El vendedor " + vendedores[j] + " vendió " + ventas[i][j] + " del vehículo " + vehiculos[i]);
+                System.out.println("El vendedor " + vendedores[j] + " vendió " + ventas[i][j] + " del casco " + modelosCascos[i]);
             }
         }
     }
