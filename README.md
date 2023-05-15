@@ -72,7 +72,7 @@ Generado a las Sun May 14 23:13:48 UTC 2023 por Jhon Garcia (Jhoncetto) usando J
   
 ## Aproximación Caso de Uso:
 
-
+![Logo](C:\Users\jhose\Desktop\concesionario\CASO.png)
 
 
  
@@ -93,7 +93,7 @@ Postcondiciones: Promedio de Ventas  de concesionario
  
 ## Aproximación Diagrama de Flujo:
  
-
+![Logo](C:\Users\jhose\Desktop\concesionario\code.png)
 
 Entender el anterior diagrama no debe presentar mayores problemas. Sin embargo, es conveniente realizar las siguientes aclaraciones y comentarios:
 •	Este código es muy básico y no tan preciso como el de java y el código orientado a objetos
